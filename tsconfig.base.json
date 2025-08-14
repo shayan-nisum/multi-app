@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mfe-multiapp/shared-state": ["shared-state/src/index.ts"],
+      "@mfe-multiapp/shared-ui": ["shared-ui/src/index.ts"],
+      "@mfe-multiapp/shared-utils": ["shared-utils/src/index.ts"],
+      "@mfe-multiapp/catalog": ["catalog/src/app/app.tsx"],
+      "@mfe-multiapp/checkout": ["checkout/src/app/app.tsx"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
